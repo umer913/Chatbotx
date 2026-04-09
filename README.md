@@ -2,6 +2,23 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Environment Setup
+
+This project uses one environment file at the project root: `.env`.
+
+1. Create a `.env` file in the project root.
+2. Fill in all required values in `.env`.
+3. Start frontend from the root folder and backend from the `backend` folder.
+
+Required `.env` keys:
+- `REACT_APP_API_BASE_URL` (example: `http://localhost:5001`)
+- `MONGO_URI`
+- `GEMINI_API_KEY`
+
+Optional `.env` keys:
+- `PORT` (default: `5001`)
+- `GEMINI_MODEL` (default: `gemini-2.0-flash`)
+
 ## Available Scripts
 
 In the project directory, you can run:
